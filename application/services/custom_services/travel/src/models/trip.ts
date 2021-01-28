@@ -1,12 +1,8 @@
 
-import * as firebase from 'firebase-admin';
-
-const Schema = mongoose.Schema;
-
-export const tripSchema = new Schema({
+var tripModel{
    trip_name: String,
-   trip_place: String
-})
+   trip_place: String,
+   trip_time: String
+}
 
-const tripModel = mongoose.model('trip', tripSchema, 'trip');
 export default tripModel;
