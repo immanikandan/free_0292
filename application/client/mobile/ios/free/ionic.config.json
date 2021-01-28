@@ -1,0 +1,7 @@
+{
+  "name": "free",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
